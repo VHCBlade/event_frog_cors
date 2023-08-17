@@ -1,5 +1,5 @@
 import 'package:dart_frog/dart_frog.dart';
-import 'package:dart_frog_cors/dart_frog_cors.dart';
+import 'package:event_frog_cors/event_frog_cors.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
 
@@ -15,7 +15,7 @@ void main() {
   late Response response;
   late Handler handler;
 
-  Map<String, String> getCapturedHeaders() {
+  Map<String, Object?> getCapturedHeaders() {
     return verify(
       () => response.copyWith(
         headers: captureAny(named: 'headers'),

@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dart_frog/dart_frog.dart';
-import 'package:dart_frog_cors/src/cors_defaults.dart';
+import 'package:event_frog_cors/src/cors_defaults.dart';
 
 /// Injects CORS headers into every [Response].
 ///

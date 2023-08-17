@@ -59,6 +59,8 @@ Handler middleware(Handler handler) {
 
 ## Additional information
 
+This is based on the original `dart_frog_cors` package made by Andrew Horn [Github Link](https://github.com/andyhorn/dart_frog_cors)
+
 This is not an official `dart_frog` package.
 
 This package was based on this fabulous CORS example for the `shelf` server: [shelf_helpers](https://github.com/Kleak/shelf_helpers/blob/main/lib/src/middlewares/cors.dart)
